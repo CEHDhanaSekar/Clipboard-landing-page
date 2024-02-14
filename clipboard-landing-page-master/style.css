@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@600&family=Barlow+Semi+Condensed:wght@300&family=Poppins:wght@600&family=Raleway:wght@300;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family:'Bai Jamjuree', sans-serif;
+}
+body{
+    width: 99vw;
+}
+header{
+    width: 100vw;
+    height: 30vh;
+    padding: 10px;
+    background: url(images/bg-header-desktop.png);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    width: 100px;
+    filter: drop-shadow(0px 0px 5px rgb(140, 237, 192));
+}
+#launch-page{
+    width: 100%;
+}
+#head-line,#resource{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 16vw;
+    gap: 25px 0px;
+}
+.title,.description{
+    text-align:center;
+    opacity: .8;
+}
+.title2{
+    text-align: center;
+    opacity: .8;
+    font-size: 28px;
+}
+.description{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(148, 147, 147);
+    line-height: 1.5em;
+}
+.download-btn{
+    padding-bottom: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.download-btn button{
+    font-size:16px;
+    width: 70vw;
+    font-weight:600 ;
+    color: white;
+    padding: 15px 0px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.download-btn button:hover{
+    opacity: 0.8;
+}
+.download-ios{
+    background-color: hsl(171, 66%, 44%);
+    border:1px solid hsl(171, 84%, 39%);
+    box-shadow: 0px 5px 5px hsla(171, 66%, 44%, 0.402);
+}
+.download-mac{
+    background-color: hsl(233, 100%, 69%);
+    border: 1px solid hsl(233, 73%, 55%);
+    box-shadow: 0px 5px 5px hsla(233, 78%, 58%, 0.401);
+}
+#snippet{
+    width: 100%;
+}
+#snippet-head{
+    gap: 25px 0px;
+    padding: 0px 10vw 50px;
+}
+#snippet-body{
+    width: 100%;
+    padding-bottom: 100px;
+}
+#snippet-body #img1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+#snippet-body #img1 img{
+    width: 80vw;
+}
+#snippet-body #details{
+    padding: 0px 15vw;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.snippet-detail{
+    align-items: center;
+    gap: 20px;
+}
+#clipboard{
+    width: 100%;
+    gap: 50px 0px;
+    padding: 0px 10vw;
+}
+#clipboard #clipboard-head{
+    gap: 25px;
+}
+#clipboard #clipboard-body img{
+    width: 80vw;
+}
+#supercharge{
+    padding: 25px 10vw 50px;
+    gap: 50px 0px;
+}
+#supercharge-head{
+    gap: 25px 0px;
+}
+#supercharge-body{
+    width: 100%;
+    gap: 50px 20px;
+}
+#supercharge-body .supercharge-template{
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+.supercharge-template img{
+    width: 70px;
+}
+#company-logos{
+    align-items: center;
+    justify-content: center;
+    gap: 50px 0px;
+    margin: 50px 0px 50px;
+}
+#company-logos img{
+    width: 150px;
+}
+#resource-head{
+    gap: 25px 0px;
+}
+.footer{
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    background: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px 0px;
+}
+#footer-navs{
+    width: 75%;
+    padding: 25px 0px 50px;
+    display: grid;
+    gap: 25px 0px ;
+}
+#footer-navs a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: rgba(41, 41, 41, 0.8);
+    font-weight: 550;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+#footer-navs a:hover{
+    color: hsl(171, 74%, 33%);
+    background: rgba(125, 237, 155, 0.3);
+}
+#footer-navs a:active{
+    color: hsl(171, 82%, 62%);
+}
+#social-medias{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#social-medias a{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    color: rgb(54, 54, 54);
+}
+#social-medias a i{
+    font-size: 1.5em;
+}
+#social-medias a:hover i{
+    animation: rotate .7s linear 1 alternate;
+}
+#social-medias a:active i{
+    transform: translateY(-5px);
+}
+#social-medias a:hover:nth-child(1){
+    color: rgb(42, 100, 208);
+}
+#social-medias a:hover:nth-child(2){
+    color: rgb(12, 152, 212);
+}
+#social-medias a:hover:nth-child(3){
+    color: white;
+    background: linear-gradient(to right top,rgb(255, 255, 57),rgb(255, 149, 0),rgb(255, 31, 31),rgb(243, 14, 178),rgb(207, 12, 246),rgb(73, 33, 252),rgb(73, 33, 252));
+}   
+@keyframes rotate {
+    to{
+        transform: rotate(360deg);
+    }
+}
+@media (min-width:720px) {
+    .download-btn{
+        flex-direction: row;
+        padding-bottom: 50px;
+    }
+    .download-btn button{
+        width: 250px;
+    }
+    .title2{
+        text-align: center;
+        opacity: .8;
+        font-size: 26px;
+    }
+    .description{
+        font-size: 16px;
+        font-weight: 500;
+        color: rgb(148, 147, 147);
+        line-height: 1.5em;
+    }
+    header{
+        height: 20vh;
+    }
+    .logo{
+        width: 75px;
+    }
+    #snippet-body{
+        display: flex;
+    }
+    #snippet-body #img1 img{
+        width: 40vw;
+        align-self: center;
+    }
+    #clipboard-body{
+        text-align: center;
+    }
+    #clipboard #clipboard-body img{
+        width: 600px;
+    }
+    #supercharge-body{
+        flex-direction: row;
+    }
+    .supercharge-template img{
+        width: 40px;
+    }
+    #company-logos{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    #company-logos img{
+        width: 120px;
+    }
+    .footer{
+        flex-direction: row;
+    }
+    #logo-footer{
+        text-align: center;
+        flex: 1 2 0;
+    }
+    #footer-navs{
+        flex: 3 1 0;
+        font-size: 10px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-content: flex-start;
+        padding: 10px;
+        gap: 0px;
+    }
+    #footer{
+        padding: 10px;
+    }
+    #footer-navs a{
+        padding: 10px;
+    }
+    #social-medias{  
+        flex: 1.5 1.5 0;
+    }
+}
